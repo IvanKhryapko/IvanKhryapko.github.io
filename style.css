@@ -14,3 +14,19 @@
 		font-size: 40px;
 	}
 }
+@media screen and (max-device-width: 414px){
+	h1{
+		font-size: 50px;
+	}
+	.img{
+		width:30%;
+		height: 20%;
+
+	}
+	p{
+		font-size: 60px;
+	}
+	a{
+		font-size: 55px;
+	}
+}
