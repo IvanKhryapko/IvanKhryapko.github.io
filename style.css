@@ -16,17 +16,17 @@
 }
 @media screen and (max-device-width: 500px){
 	h1{
-		font-size: 50px;
+		font-size: 25px;
 	}
 	.img{
-		width:100%;
+		width:5%;
 		height: 100%;
 
 	}
 	p{
-		font-size: 60px;
+		font-size: 20px;
 	}
 	a{
-		font-size: 55px;
+		font-size: 15px;
 	}
 }
