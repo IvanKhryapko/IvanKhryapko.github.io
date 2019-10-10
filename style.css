@@ -13,7 +13,7 @@
 		font-size: 25px;
 	}
 }
-@media screen and (max-device-width: 1080px){
+@media screen and (max-width: 1080px){
 	h1{
 		font-size: 40px;
 	}
