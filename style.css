@@ -13,6 +13,21 @@
 		font-size: 25px;
 	}
 }
+@media screen and (max-device-width: 1080px){
+	h1{
+		font-size: 20px;
+	}
+	.img{
+		width:15%;
+
+	}
+	p{
+		font-size: 15px;
+	}
+	a{
+		font-size: 15px;
+	}
+}
 @media screen and (max-width: 450px){
 	h1{
 		font-size: 25px;
