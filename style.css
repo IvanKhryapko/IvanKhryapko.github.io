@@ -14,16 +14,16 @@
 @media screen and (max-device-width: 1080px){
 	h1{
 		text-align: center;
-		font-size: 35px;
+		font-size: 45px;
 	}
 	h2{
 		text-align: center;
 	}
 	p{
-		font-size: 30px;
+		font-size: 40px;
 	}
 	a{
-		font-size: 30px;
+		font-size: 45px;
 	}
 	.img{
 		float: none;
@@ -31,6 +31,7 @@
 		margin: auto;
 	}
 	.table{
+		font-size: 40px;
 		float:none;
 		text-align: center;
 		list-style-position: inside;
