@@ -39,14 +39,14 @@
 @media screen and (max-device-width: 450px){
 	h1{
 		text-align: center;
-		font-size: 25px;
+		font-size: 35px;
 	}
 	h2{
 		text-align: center;
 	}
 	.img{
 		float: none;
-		width:15%;
+		width:20%;
 		margin: auto;
 		}
 	.table{
@@ -55,9 +55,9 @@
 		list-style-position: inside;
 	}
 	p{
-		font-size: 15px;
+		font-size: 25px;
 	}
 	a{
-		font-size: 12px;
+		font-size: 25px;
 	}
 }
