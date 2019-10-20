@@ -20,10 +20,10 @@
 		text-align: center;
 	}
 	p{
-		font-size: 28px;
+		font-size: 30px;
 	}
 	a{
-		font-size: 25px;
+		font-size: 30px;
 	}
 	.img{
 		float: none;
@@ -43,6 +43,7 @@
 	}
 	h2{
 		text-align: center;
+		font-size: 15px;
 	}
 	.img{
 		float: none;
@@ -55,9 +56,9 @@
 		list-style-position: inside;
 	}
 	p{
-		font-size: 25px;
+		font-size: 15px;
 	}
 	a{
-		font-size: 22px;
+		font-size: 12px;
 	}
 }
