@@ -11,55 +11,55 @@
 
 .variant {
     grid-area: vt;
-	background: red;
+  background: LimeGreen;
 }
 
 .menu {
     grid-area: mn;
-	background: blue;
+  background: DeepSkyBlue;
 }
  
 .navigation {
     grid-area: nv;
-	background: cyan;
+  background: cyan;
 }
 
 .information {
     grid-area: inf;
-	background: cyan;
+  background: cyan;
 }
 
 .logo {
     grid-area: lg;
-  background: orange;
+  background: LimeGreen;
 }
 
 .block1 {
     grid-area: bk1; 
-  background: cyan;
+  background: Gold;
 }
 .block2 {
     grid-area: bk2; 
-  background: cyan;
+  background: Gold;
 }
 .block3 {
     grid-area: bk3; 
-  background: cyan;
+  background: Gold;
 }
 
 .block4 {
     grid-area: bk4; 
-  background: cyan;
+  background: Gold;
 }
 
 .useful {
     grid-area: uf; 
-  background: cyan;
+  background: LimeGreen;
 }
 
 .vault {
     grid-area: vlt; 
-  background: cyan;
+  background: Gray;
 }
 
 .data {
@@ -70,7 +70,7 @@
     "lg"
     "vt"
     "mn"
-	  "nv"
+    "nv"
     "inf"
     "bk1"
     "bk2"
@@ -107,7 +107,7 @@
         grid-template-columns: repeat(9, 1fr);
         word-wrap: break-word;
         grid-template-areas:
-	       "lg lg lg  uf uf uf  uf uf uf"
+         "lg lg lg  uf uf uf  uf uf uf"
           "mn mn mn mn   mn   mn   mn   mn mn"
           "bk1 bk1 bk1 inf  inf inf  inf  inf inf"
           "bk2 bk2 bk2 inf  inf inf inf  inf inf"
