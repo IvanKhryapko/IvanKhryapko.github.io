@@ -28,6 +28,14 @@ function loadXML(file) {
 } 
 
 </script>
+<style type="text/css">
+   .data { 
+    width: 200px; 
+    padding: 5px;
+    padding-right: 20px; 
+    float: left;
+}
+</style>
 </head>
 <body>
 <div>
@@ -37,6 +45,8 @@ function loadXML(file) {
 	<a name="Мясо" id="Молочные продукты" href="#" onmouseover="choose(this)" style="color: green;">Мясо</a> <br /> 
 </div>
 
+<div class="data" id="data">
+	<center>
 	<br /> 
 	<div name="title0" id="title0"></div>
 	<br /> <br />
@@ -44,7 +54,8 @@ function loadXML(file) {
 	<br /> <br />
 	<div name="title2" id="title2"></div>
 	<br /> 
-
+	</center>
+</div>
 
 <script category="text/javascript">
 
@@ -69,7 +80,23 @@ function choose(coloredLink) {
  document.getElementById(title).innerHTML = xmlDoc.getElementsByTagName("title")[i].childNodes[0].nodeValue;
 
  index++;
+   if (group == "Молочные продукты") {
+ 	data.style.Color = "red";
+ 	data.style.backgroundColor = "tan";
+}
+   if (group == "Консервы") {
+ 	data.style.color = "blue";
+ 	data.style.backgroundColor = "aqua";
+}
 
+ 	if (group == "Овощи") {
+ 	data.style.color = "green";
+ 	data.style.backgroundColor = "yellow";
+}
+ 	if (group == "Мясо") {
+ 	data.style.color = "gray";
+ 	data.style.backgroundColor = "lime";
+}
 
  }
 
