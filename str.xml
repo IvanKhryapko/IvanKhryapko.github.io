@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product group="Молочные продукты">
+		<title>Яйца</title>
+	</product>
+	<product group="Молочные продукты">
+		<title>Молоко</title>
+	</product>
+	<product group="Молочные продукты">
+		<title>Йогурт</title>
+	</product>
+	<product group="Консервы">
+		<title>Тунец</title>
+	</product>
+	<product group="Консервы">
+		<title>Тушенка</title>
+	</product>
+	<product group="Консервы">
+		<title>Маслины</title>
+	</product>
+	<product group="Овощи">
+		<title>Картошка</title>
+	</product>
+	<product group="Овощи">
+		<title>Чеснок</title>
+	</product>
+	<product group="Овощи">
+		<title>Морковь</title>
+	</product>
+	<product group="Мясо">
+		<title>Куриные грудки</title>
+	</product>
+	<product group="Мясо">
+		<title>Сосиски</title>
+	</product>
+	<product group="Мясо">
+		<title>Сало</title>
+	</product>
+</products>
