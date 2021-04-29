@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+	<script src="https://IvanKhryapko.github.io/text.json"></script>
+
+	<title>Document</title>
+
+	<script>
+		google.load("visualization", "1.1", {packages:["wordtree"]});
+		google.setOnLoadCallback(drawChart);
+		function drawChart() {
+		var objectName = JSON.parse(object);
+      var actionName = JSON.parse(action);
+      var actions = [['Фразы']];
+      for (let i = 0; i < actionName.length; i++) {
+        var temp = objectName[0].obj + " " + actionName[i].act;
+        actions.push([temp]);
+      }
+      var data = google.visualization.arrayToDataTable(actions);
+		/*var data = google.visualization.arrayToDataTable(
+		[ ['Фразы'],
+		['Транспорт тип легковий'], ['Транспорт тип вантажний'], ['Транспорт тип громадський є тролейбус'], ['Транспорт керує водій'], ['Транспорт тип громадський є маршрутне таксі'], ['Транспорт тип громадський є автобус'], ['Транспорт тип громадський має розклад'], ['Транспорт тип громадський має зупинки'],
+		['Транспорт тип громадський є таксі'], ['Транспорт перевозить вантаж'], ['Транспорт перевозить пасажирів'], ['Транспорт має марка'], ['Транспорт має виробник'], ['Транспорт має частини є двигун'], ['Транспорт має частини є автомобільне скло'], ['Транспорт має частини є панель приборів має тахометр'], ['Транспорт має частини є панель приборів має спідометр'], ['Транспорт має частини є панель приборів має покажчик палива'], ['Транспорт має частини є панель приборів має покажчик пробігу'], ['Транспорт має частини є колеса'], ['Транспорт має частини є салон з матеріалу натуральна шкіра'], ['Транспорт має частини є салон з матеріалу штучна шкіра'], ['Транспорт має частини є салон з матеріалу тканина'], ['Транспорт має частини є салон з матеріалу алькантара'], ['Транспорт має частини є коробка передач буває механічна'],['Транспорт має частини є коробка передач буває автоматична'], ['Транспорт має частини є коробка передач буває варіатор'], ['Транспорт має частини є коробка передач буває типтроник'], ['Транспорт має частини є коробка передач буває варіатор'], ['Транспорт має частини є коробка передач буває робот'], ['Транспорт використовує паливо тип бензин'], ['Транспорт використовує паливо тип дизель'], ['Транспорт використовує паливо тип газ'],['Транспорт використовує паливо тип електроенергія'],]
+		);*/
+		var options = {
+		maxFontSize: 14,
+		backgroundColor: '#F7F7F7',
+		wordtree: {
+		format: 'implicit',
+		word: objectName[0].obj
+		//word: 'Транспорт'
+		} };
+		var chart = new
+		google.visualization.WordTree(document.getElementById('wordtree_basic'));
+		chart.draw(data, options);
+		}
+	</script>
+</head>
+
+<body>
+	<div id="wordtree_basic" style="margin-bottom:10px;"></div>
+</body>
+
+</html>
