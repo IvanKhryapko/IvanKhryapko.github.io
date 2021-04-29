@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://IvanKhryapko.github.io/IIS/Transport_Kremenchuka.json"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://IvanKhryapko.github.io/IIS/Transport_Kremenchuka.json">
+    <Prefix name="" IRI="http://www.semanticweb.org/ivan/ontologies/2021/3/Transport"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <DataProperty IRI="#Варіатор"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#мають"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Електро"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Автомат"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Типтроник"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Автомобільні_стекла"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Спідометр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Пасажирів"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Пробіг"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Панель_приборів"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#перевозить"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Громадський_транспорт"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Колеса"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Зупинки"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Розмір"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Тролейбус"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Дизель"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#A-92"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Двигун"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Тахометр"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Розклад_руху"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Бензин"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Таксі"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#кількість_передач"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Транспортні_Засоби_Кременчука"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Маршрутне_таксі"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Газ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Легковий_автомобіль"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#виробник"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Сидіння"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Вантаж"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Покажчик_палива"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Вантажівка"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#A-98"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#A-95"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Коробка_передач"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Робот"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Матеріал"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Запчастини"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Автобус"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#використовує"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Марка"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Механічна"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Паливо"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Автобус"/>
+        <Class IRI="#Громадський_транспорт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Автомобільні_стекла"/>
+        <Class IRI="#Запчастини"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Бензин"/>
+        <Class IRI="#Паливо"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Вантажівка"/>
+        <Class IRI="#Транспортні_Засоби_Кременчука"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Громадський_транспорт"/>
+        <Class IRI="#Транспортні_Засоби_Кременчука"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Двигун"/>
+        <Class IRI="#Запчастини"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Запчастини"/>
+        <Class IRI="#Транспортні_Засоби_Кременчука"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Колеса"/>
+        <Class IRI="#Запчастини"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Коробка_передач"/>
+        <Class IRI="#Запчастини"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Легковий_автомобіль"/>
+        <Class IRI="#Транспортні_Засоби_Кременчука"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Маршрутне_таксі"/>
+        <Class IRI="#Громадський_транспорт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Паливо"/>
+        <Class IRI="#Двигун"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Панель_приборів"/>
+        <Class IRI="#Запчастини"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Пасажирів"/>
+        <Class IRI="#Громадський_транспорт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Сидіння"/>
+        <Class IRI="#Запчастини"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Таксі"/>
+        <Class IRI="#Громадський_транспорт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Тролейбус"/>
+        <Class IRI="#Громадський_транспорт"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Вантажівка"/>
+        <Class IRI="#Легковий_автомобіль"/>
+    </DisjointClasses>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#використовує"/>
+        <Class IRI="#Двигун"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#мають"/>
+        <Class IRI="#Транспортні_Засоби_Кременчука"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#перевозить"/>
+        <Class IRI="#Громадський_транспорт"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#використовує"/>
+        <Class IRI="#Паливо"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#мають"/>
+        <Class IRI="#Запчастини"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#перевозить"/>
+        <Class IRI="#Пасажирів"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#A-92"/>
+        <Class IRI="#Бензин"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#A-95"/>
+        <Class IRI="#Бензин"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#A-98"/>
+        <Class IRI="#Бензин"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Автомат"/>
+        <Class IRI="#Коробка_передач"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Вантаж"/>
+        <Class IRI="#Вантажівка"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Варіатор"/>
+        <Class IRI="#Коробка_передач"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Газ"/>
+        <Class IRI="#Паливо"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Дизель"/>
+        <Class IRI="#Паливо"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Електро"/>
+        <Class IRI="#Паливо"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Зупинки"/>
+        <Class IRI="#Громадський_транспорт"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Марка"/>
+        <Class IRI="#Транспортні_Засоби_Кременчука"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Матеріал"/>
+        <Class IRI="#Сидіння"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Механічна"/>
+        <Class IRI="#Коробка_передач"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Покажчик_палива"/>
+        <Class IRI="#Панель_приборів"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Пробіг"/>
+        <Class IRI="#Панель_приборів"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Робот"/>
+        <Class IRI="#Коробка_передач"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Розклад_руху"/>
+        <Class IRI="#Громадський_транспорт"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Розмір"/>
+        <Class IRI="#Колеса"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Спідометр"/>
+        <Class IRI="#Панель_приборів"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Тахометр"/>
+        <Class IRI="#Панель_приборів"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Типтроник"/>
+        <Class IRI="#Коробка_передач"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#виробник"/>
+        <Class IRI="#Транспортні_Засоби_Кременчука"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#кількість_передач"/>
+        <Class IRI="#Коробка_передач"/>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
