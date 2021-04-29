@@ -1,0 +1,1609 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "baseIris": [
+      "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "http://www.w3.org/2000/01/rdf-schema"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.45",
+      "translation": [
+        457.46,
+        251.64
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "38",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "39",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "42",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "43",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "44",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "26",
+      "type": "owl:Class"
+    },
+    {
+      "id": "49",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "46",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "51",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "41",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "33",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "54",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "56",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "57",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "29",
+      "type": "owl:Class"
+    },
+    {
+      "id": "30",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "27",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "13",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "61",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "16",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "62",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "64",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "48",
+      "type": "owl:Class"
+    },
+    {
+      "id": "18",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "21",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "23",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "68",
+      "type": "owl:Class"
+    },
+    {
+      "id": "59",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "0",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Тролейбус",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Тролейбус"
+      },
+      "pos": [
+        1941.64,
+        878.04
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Громадський_транспорт",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Громадський_транспорт"
+      },
+      "pos": [
+        1631.28,
+        628.62
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Двигун",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Двигун"
+      },
+      "pos": [
+        234.61,
+        355.36
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Паливо",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Паливо"
+      },
+      "pos": [
+        -92.08,
+        132.32
+      ]
+    },
+    {
+      "id": "14",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Сидіння",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Сидіння"
+      },
+      "pos": [
+        324.05,
+        806.06
+      ]
+    },
+    {
+      "id": "38",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        129.72,
+        995.22
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Автобус",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Автобус"
+      },
+      "pos": [
+        1578.21,
+        1030.48
+      ]
+    },
+    {
+      "id": "39",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        960.25,
+        -231.82
+      ]
+    },
+    {
+      "id": "42",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1898.87,
+        672.24
+      ]
+    },
+    {
+      "id": "43",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -317.41,
+        0.44
+      ]
+    },
+    {
+      "id": "44",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Автомобільні_стекла",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Автомобільні_стекла"
+      },
+      "pos": [
+        486.16,
+        874.62
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Маршрутне_таксі",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Маршрутне_таксі"
+      },
+      "pos": [
+        1807.59,
+        261.6
+      ]
+    },
+    {
+      "id": "26",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Колеса",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Колеса"
+      },
+      "pos": [
+        920.71,
+        930.81
+      ]
+    },
+    {
+      "id": "49",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1429.56,
+        -272.13
+      ]
+    },
+    {
+      "id": "46",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -20.2,
+        -136.3
+      ]
+    },
+    {
+      "id": "51",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1222.18,
+        653.4
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Запчастини",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Запчастини"
+      },
+      "pos": [
+        692.12,
+        561.99
+      ]
+    },
+    {
+      "id": "41",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        859.88,
+        -343.18
+      ]
+    },
+    {
+      "id": "33",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        685.74,
+        1459.26
+      ]
+    },
+    {
+      "id": "54",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        519.06,
+        28.42
+      ]
+    },
+    {
+      "id": "56",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        527.07,
+        1440.47
+      ]
+    },
+    {
+      "id": "57",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        821.63,
+        1384.68
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Панель_приборів",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Панель_приборів"
+      },
+      "pos": [
+        637.75,
+        1165.08
+      ]
+    },
+    {
+      "id": "30",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        409.84,
+        1326.33
+      ]
+    },
+    {
+      "id": "27",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1073.05,
+        1159.73
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1361.88,
+        311.21
+      ]
+    },
+    {
+      "id": "61",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        579.95,
+        -318.28
+      ]
+    },
+    {
+      "id": "16",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -527.93,
+        391.18
+      ]
+    },
+    {
+      "id": "62",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -185.96,
+        -136.41
+      ]
+    },
+    {
+      "id": "64",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        495.66,
+        -184.13
+      ]
+    },
+    {
+      "id": "48",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Вантажівка",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Вантажівка"
+      },
+      "pos": [
+        1306.86,
+        -22.44
+      ]
+    },
+    {
+      "id": "18",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -507.78,
+        655.59
+      ]
+    },
+    {
+      "id": "21",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        719.01,
+        -370.42
+      ]
+    },
+    {
+      "id": "23",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -321.04,
+        759.69
+      ]
+    },
+    {
+      "id": "68",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Легковий_автомобіль",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Легковий_автомобіль"
+      },
+      "pos": [
+        1394.12,
+        117.94
+      ]
+    },
+    {
+      "id": "59",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1824.64,
+        417.31
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Транспортні_Засоби_Кременчука",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Транспортні_Засоби_Кременчука"
+      },
+      "pos": [
+        1135.29,
+        415.46
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Коробка_передач",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Коробка_передач"
+      },
+      "pos": [
+        741.19,
+        -60.75
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Бензин",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Бензин"
+      },
+      "pos": [
+        -305.99,
+        494.86
+      ]
+    },
+    {
+      "id": "3",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Пасажирів",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Пасажирів"
+      },
+      "pos": [
+        1680.47,
+        983.7
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Таксі",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Таксі"
+      },
+      "pos": [
+        2004.94,
+        478.46
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "7",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "12",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "15",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "17",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "19",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "22",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "24",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "25",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "28",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "31",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "32",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "34",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "35",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "36",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "37",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "40",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "45",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "47",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "50",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "52",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "53",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "55",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "58",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "60",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "63",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "65",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "66",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "67",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "69",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "70",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "71",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "72",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "73",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "74",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "75",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "76",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "77",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "78",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "79",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "80",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "81",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "82",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "83",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "84",
+      "type": "rdfs:subClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "7",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "8",
+      "range": "9",
+      "pos": [
+        -199.04,
+        313.59
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#виробник",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "виробник"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "2",
+      "range": "13",
+      "pos": [
+        1260.43,
+        357.89
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#A-98",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "A-98"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "8",
+      "range": "16",
+      "pos": [
+        -428.91,
+        437.44
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#A-95",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "A-95"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "8",
+      "range": "18",
+      "pos": [
+        -420.17,
+        585.8
+      ]
+    },
+    {
+      "id": "19",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Автомат",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Автомат"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "20",
+      "range": "21",
+      "pos": [
+        728.67,
+        -235.52
+      ]
+    },
+    {
+      "id": "22",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#A-92",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "A-92"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "8",
+      "range": "23",
+      "pos": [
+        -314.65,
+        647.24
+      ]
+    },
+    {
+      "id": "24",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "9",
+      "range": "10",
+      "pos": [
+        44.24,
+        276.74
+      ]
+    },
+    {
+      "id": "25",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Розмір",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Розмір"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "26",
+      "range": "27",
+      "pos": [
+        1007.4,
+        1061.09
+      ]
+    },
+    {
+      "id": "28",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Спідометр",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Спідометр"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "29",
+      "range": "30",
+      "pos": [
+        510.46,
+        1255.14
+      ]
+    },
+    {
+      "id": "31",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "6",
+      "range": "1",
+      "pos": [
+        1719.44,
+        445.11
+      ]
+    },
+    {
+      "id": "32",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Покажчик_палива",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Покажчик_палива"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "29",
+      "range": "33",
+      "pos": [
+        664.96,
+        1331.85
+      ]
+    },
+    {
+      "id": "34",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "3",
+      "range": "1",
+      "pos": [
+        1702.54,
+        808.42
+      ]
+    },
+    {
+      "id": "35",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "0",
+      "range": "1",
+      "pos": [
+        1786.46,
+        753.33
+      ]
+    },
+    {
+      "id": "36",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "5",
+      "range": "1",
+      "pos": [
+        1818.11,
+        553.54
+      ]
+    },
+    {
+      "id": "37",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "4",
+      "range": "1",
+      "pos": [
+        1604.75,
+        829.55
+      ]
+    },
+    {
+      "id": "40",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Робот",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Робот"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "20",
+      "range": "41",
+      "pos": [
+        808.12,
+        -220.01
+      ]
+    },
+    {
+      "id": "45",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Дизель",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Дизель"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "9",
+      "range": "46",
+      "pos": [
+        -51.02,
+        -21.14
+      ]
+    },
+    {
+      "id": "47",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Вантаж",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Вантаж"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "48",
+      "range": "49",
+      "pos": [
+        1376.78,
+        -164.72
+      ]
+    },
+    {
+      "id": "50",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Марка",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Марка"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "2",
+      "range": "51",
+      "pos": [
+        1185.48,
+        552.91
+      ]
+    },
+    {
+      "id": "52",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#кількість_передач",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "кількість_передач"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "20",
+      "range": "39",
+      "pos": [
+        864.02,
+        -156.67
+      ]
+    },
+    {
+      "id": "53",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#мають",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "мають"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "11",
+      "pos": [
+        919.31,
+        511.8
+      ]
+    },
+    {
+      "id": "55",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Зупинки",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Зупинки"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "1",
+      "range": "42",
+      "pos": [
+        1776.5,
+        652.3
+      ]
+    },
+    {
+      "id": "58",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Розклад_руху",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Розклад_руху"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "1",
+      "range": "59",
+      "pos": [
+        1740.26,
+        509.52
+      ]
+    },
+    {
+      "id": "60",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#використовує",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "використовує"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "9",
+      "pos": [
+        86.07,
+        214.96
+      ]
+    },
+    {
+      "id": "63",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Типтроник",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Типтроник"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "20",
+      "range": "61",
+      "pos": [
+        650.43,
+        -205.7
+      ]
+    },
+    {
+      "id": "65",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Газ",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Газ"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "9",
+      "range": "62",
+      "pos": [
+        -145.52,
+        -20.65
+      ]
+    },
+    {
+      "id": "66",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Механічна",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Механічна"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "20",
+      "range": "64",
+      "pos": [
+        606.03,
+        -128.66
+      ]
+    },
+    {
+      "id": "67",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Пробіг",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Пробіг"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "29",
+      "range": "57",
+      "pos": [
+        741.56,
+        1289.05
+      ]
+    },
+    {
+      "id": "69",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "68",
+      "range": "48"
+    },
+    {
+      "id": "70",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Тахометр",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Тахометр"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "29",
+      "range": "56",
+      "pos": [
+        575.1,
+        1320.98
+      ]
+    },
+    {
+      "id": "71",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Варіатор",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Варіатор"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "20",
+      "range": "54",
+      "pos": [
+        619.38,
+        -11.85
+      ]
+    },
+    {
+      "id": "72",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "48",
+      "range": "2",
+      "pos": [
+        1221.08,
+        196.51
+      ]
+    },
+    {
+      "id": "73",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#перевозить",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "перевозить"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "1",
+      "range": "3",
+      "pos": [
+        1567.41,
+        813
+      ]
+    },
+    {
+      "id": "74",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "11",
+      "range": "2",
+      "pos": [
+        902.64,
+        463.19
+      ]
+    },
+    {
+      "id": "75",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Матеріал",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Матеріал"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "14",
+      "range": "38",
+      "pos": [
+        214.1,
+        913.07
+      ]
+    },
+    {
+      "id": "76",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "29",
+      "range": "11",
+      "pos": [
+        664.93,
+        863.53
+      ]
+    },
+    {
+      "id": "77",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "14",
+      "range": "11",
+      "pos": [
+        508.08,
+        684.02
+      ]
+    },
+    {
+      "id": "78",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "68",
+      "range": "2",
+      "pos": [
+        1264.7,
+        266.7
+      ]
+    },
+    {
+      "id": "79",
+      "iri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport#Електро",
+      "baseIri": "http://www.semanticweb.org/ivan/ontologies/2021/3/Transport",
+      "label": {
+        "IRI-based": "Електро"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "9",
+      "range": "43",
+      "pos": [
+        -217.78,
+        58.75
+      ]
+    },
+    {
+      "id": "80",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "1",
+      "range": "2",
+      "pos": [
+        1383.29,
+        522.04
+      ]
+    },
+    {
+      "id": "81",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "10",
+      "range": "11",
+      "pos": [
+        463.36,
+        458.67
+      ]
+    },
+    {
+      "id": "82",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "26",
+      "range": "11",
+      "pos": [
+        806.41,
+        746.4
+      ]
+    },
+    {
+      "id": "83",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "44",
+      "range": "11",
+      "pos": [
+        589.14,
+        718.3
+      ]
+    },
+    {
+      "id": "84",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "20",
+      "range": "11",
+      "pos": [
+        716.65,
+        250.62
+      ]
+    }
+  ]
+}
